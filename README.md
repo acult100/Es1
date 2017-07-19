@@ -1,4 +1,4 @@
-# Esercizio 1 
+# Esercizio 0
 ## Alloggio 
 
-Esercizio dell'alloggio dentro la cartella esercizio 1 
+Esercizio dell'alloggio dentro la cartella esercizio 0
