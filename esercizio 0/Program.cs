@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace e1
 {
@@ -21,13 +21,14 @@ namespace e1
                 double d = Convert.ToDouble(Console.ReadLine());
                 n1.Inserisci(a,b,c,d);
                 Console.WriteLine(n1.Stampa());
+                lista[i] = n1;
             }
             Console.WriteLine("Inserire il codice:");
             int e = Convert.ToInt32(Console.ReadLine());
             for (int i = 0; i < lista.Length; i++)
             {
                 Alloggio n2 = (Alloggio)lista[i];
-                Console.WriteLine(n2.getCodice().ToString());
+                Console.WriteLine(n2.getCodice());
                 if(e==n2.getCodice()){
                     Console.WriteLine(n2.Stampa());
                 }
